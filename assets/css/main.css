@@ -133,7 +133,7 @@ a:after {
 }
 
 #f #mypicture {
-  border: 2px solid white;
+  border: 3px solid white;
   border-radius: 990px;
   height: 200px;
   width: 200px;
@@ -202,11 +202,30 @@ a:after {
   margin-left: 20px;
 }
 
+#f #box .even {
+  text-align: right;
+  margin-left: 0;
+  margin-right: 20px;
+}
+
 #f .btn-default {
   margin-top: -20px;
+  margin-left: 20px;
   font-size: 18px;
   font-weight: 300;
   font-family: 'Oswald', serif;
+}
+
+#f #moreaboutme .more {
+  width: 30%;
+  height: 300px;
+  display: inline-block;
+  margin: 0 5px 0 5px;
+}
+#f #moreaboutme .more img {
+  max-width: 100%;
+  border: 3px solid white;
+  border-radius: 999px
 }
 
 
@@ -280,7 +299,7 @@ a:after {
 	vertical-align: middle;
 	text-align: left;
 	width: 25px;
-	font-size: 14px;
+	font-size: 20px;
 	line-height: 40px;
 	margin: 25px 2px;
 }
