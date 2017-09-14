@@ -6044,7 +6044,7 @@ body.modal-open,
 
 .carousel-inner > .next.left,
 .carousel-inner > .prev.right {
-  left: 0;
+  left: 10;
 }
 
 .carousel-inner > .active.left {
