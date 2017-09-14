@@ -126,7 +126,7 @@ a:after {
 	text-align: center
 }
 
-#f #aboutabout {
+#f #aboutabout, #devtools {
   margin-left: 0;
   width: 100%;
 }
@@ -159,12 +159,6 @@ a:after {
 	letter-spacing: 1px;
 }
 
-#f i {
-	font-size: 8px;
-	color: #fff;
-  padding: 3px;
-}
-
 #f p {
 	font-size: 20px;
 	color: #f2f2f2;
@@ -195,6 +189,7 @@ a:after {
 
 #f #contacts {
   font-size: 25px;
+  color: white;
 }
 
 #f #box p {
@@ -229,6 +224,10 @@ a:after {
   max-width: 100%;
   border: 3px solid white;
   border-radius: 999px
+}
+
+#f #devtools i {
+  font-size: 100px;
 }
 
 
