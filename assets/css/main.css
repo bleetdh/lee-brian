@@ -142,7 +142,7 @@ a:after {
 }
 
 #f #mypicture:hover {
-  background: white;
+  background: url(../img/thugpic.png) no-repeat center top;
 }
 
 #f #aboutme {
