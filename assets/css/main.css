@@ -114,7 +114,6 @@ a:after {
     font-style: oblique;
 }
 
-
 /* Footer Wrap */
 #everything {
   background: linear-gradient(#323232, black)
@@ -140,6 +139,10 @@ a:after {
   background: url(../img/picforwebsite.jpg) no-repeat center top;
   display:inline-block;
   vertical-align: top;
+}
+
+#f #mypicture:hover {
+  background: white;
 }
 
 #f #aboutme {
