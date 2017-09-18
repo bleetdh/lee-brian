@@ -435,4 +435,7 @@ a:after {
   #f #moreaboutme .more p {
     text-align: center;
   }
+  #theMenu {
+    visibility: hidden;
+  }
 }
