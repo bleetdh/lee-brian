@@ -1,5 +1,5 @@
 
-if (!window['jQuery']) alert('The jQuery library must be included before the smoothscroll.js file.  The plugin will not work propery.');
+if (!window['jQuery']) alert('The jQuery library must be included before the smoothscroll.js file.  The plugin will not work propery.')
 
 // Select all links with hashes
 $('a[href*="#"]')
@@ -7,7 +7,7 @@ $('a[href*="#"]')
   .not('[href="#"]')
   .not('[href="#0"]')
   .not('[href="#carousel-example-generic"]')
-  .click(function(event) {
+  .click(function (event) {
     // On-page links
     if (
       location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
@@ -15,26 +15,26 @@ $('a[href*="#"]')
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      var target = $(this.hash)
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']')
       // Does a scroll target exist?
       if (target.length) {
         // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
+        event.preventDefault()
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 1000, function() {
+        }, 1000, function () {
           // Callback after animation
           // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
+          var $target = $(target)
+          $target.focus()
+          if ($target.is(':focus')) { // Checking if the target was focused
+            return false
           } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
+            $target.attr('tabindex', '-1') // Adding tabindex for elements not focusable
+            $target.focus() // Set focus again
           };
-        });
+        })
       }
     }
-  });
+  })
